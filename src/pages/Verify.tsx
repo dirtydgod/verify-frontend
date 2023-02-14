@@ -149,7 +149,8 @@ export function Verify() {
                                         <button
                                             onClick={async () => {
                                                 const res = await fetch(
-                                                    `https://api.frenlyfaces.xyz/verify/token`,
+                                                    `${process.env
+                                                        .REACT_APP_VERIFY_API!}/token`,
                                                     {
                                                         method: "POST",
                                                         body: JSON.stringify({
@@ -186,7 +187,8 @@ export function Verify() {
 
                                                     const verifyRes =
                                                         await fetch(
-                                                            `https://api.frenlyfaces.xyz/verify/verify`,
+                                                            `${process.env
+                                                                .REACT_APP_VERIFY_API!}/verify`,
                                                             {
                                                                 method: "POST",
                                                                 body: JSON.stringify(
@@ -249,6 +251,25 @@ export function Verify() {
                     </div>
                 )}
             </div>
+            <p
+                style={{
+                    textAlign: "center",
+                    fontSize: 14,
+                    fontFamily: "monospace",
+                    marginBottom: "2rem",
+                    marginTop: "4rem",
+                }}
+                className="p-2"
+            >
+                verification bot powered with ❤️ from{" "}
+                <a
+                    href="https://frenlyfaces.xyz"
+                    target="__blank"
+                    className="underline text-pink-600 font-bold"
+                >
+                    Frenly Faces
+                </a>
+            </p>
         </div>
     );
 }
