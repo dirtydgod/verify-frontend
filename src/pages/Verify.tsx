@@ -257,7 +257,7 @@ export function Verify() {
                     fontSize: 14,
                     fontFamily: "monospace",
                     marginBottom: "2rem",
-                    marginTop: "4rem",
+                    marginTop: "2rem",
                 }}
                 className="p-2"
             >
