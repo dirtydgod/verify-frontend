@@ -106,7 +106,7 @@ export function Verify() {
                 {!success && accessToken && user && (
                     <div>
                         <div style={{ zIndex: 1000 }}>
-                            <p
+                            <div
                                 style={{
                                     textAlign: "center",
                                     fontSize: 24,
@@ -122,7 +122,7 @@ export function Verify() {
                                 <img
                                     style={{ marginTop: "1rem" }}
                                     src={`https://cdn.discordapp.com/avatars/${user.id}/${user.avatar}.jpeg`}
-                                    className="rounded-full mx-auto h-48"
+                                    className="rounded-full mx-auto h-32"
                                 />
                                 <p style={{ marginTop: "1rem" }}>
                                     <strong>{user.username}</strong>#
@@ -218,7 +218,7 @@ export function Verify() {
                                         {process.env.REACT_APP_PROJECT_NAME}
                                     </p>
                                 )}
-                            </p>
+                            </div>
                         </div>
                     </div>
                 )}
