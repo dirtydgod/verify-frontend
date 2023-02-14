@@ -10,7 +10,9 @@ the following environment variables are required to be set on vercel before depl
 
 ```
 REACT_APP_DISCORD_REDIRECT_URI={your custom domain here with https:// prefix}
-REACT_APP_BLOCK_EXPLORER_URI=https://tuber.build
+REACT_APP_BLOCK_EXPLORER_URI={block explorer link e.g. https://tuber.build}
+REACT_APP_PROJECT_NAME={Your Project Name Here}
+REACT_APP_VERIFY_API={your verify backend URI here}
 ```
 
 ## development setup
@@ -32,4 +34,6 @@ create the required .env file
 ```
 REACT_APP_DISCORD_REDIRECT_URI=http://localhost:3000/verify
 REACT_APP_BLOCK_EXPLORER_URI=https://tuber.build
+REACT_APP_PROJECT_NAME={Your Project Name Here}
+REACT_APP_VERIFY_API={your verify backend URI here}
 ```
