@@ -203,7 +203,7 @@ export function Verify() {
                                                         setSuccess(true);
                                                     } else {
                                                         alert(
-                                                            "We couldn't verify you as a frenly face. Ensure you've connected the right wallet. If you continue to experience problems, DM us on Twitter @FrenlyFaces"
+                                                            "We couldn't verify you as an NFT holder. Ensure you've connected the right wallet. If you continue to experience problems, DM us on Twitter @FrenlyFaces"
                                                         );
                                                     }
                                                 } else {
