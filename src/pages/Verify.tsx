@@ -90,7 +90,9 @@ export function Verify() {
                                 <button
                                     className="underline text-pink-600 font-bold"
                                     onClick={() => {
-                                        window.location.href = `https://discord.com/api/oauth2/authorize?client_id=1071113835659923466&redirect_uri=${encodeURIComponent(
+                                        window.location.href = `https://discord.com/api/oauth2/authorize?client_id=${
+                                            process.env.REACT_APP_CLIENT_ID
+                                        }&redirect_uri=${encodeURIComponent(
                                             process.env
                                                 .REACT_APP_DISCORD_REDIRECT_URI!
                                         )}&response_type=token&scope=identify`;

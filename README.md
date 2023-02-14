@@ -13,6 +13,7 @@ REACT_APP_DISCORD_REDIRECT_URI={your custom domain here with https:// prefix}
 REACT_APP_BLOCK_EXPLORER_URI={block explorer link e.g. https://tuber.build}
 REACT_APP_PROJECT_NAME={Your Project Name Here}
 REACT_APP_VERIFY_API={your verify backend URI here}
+REACT_APP_CLIENT_ID={your discord bot ID}
 ```
 
 ## development setup
