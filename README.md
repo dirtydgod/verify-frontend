@@ -1,6 +1,6 @@
 # Canto Discord NFT Verification Bot Frontend
 
-This repository contains the frontend of Frenly Faces Developer's NFT Verification Bot for Canto.
+This repository contains the frontend of Frenly Faces Developer's NFT Verification Bot for Canto. You will also need to run the [backend API](https://github.com/frenlyfaces/verify-backend) in order for this to function.
 
 ## deploying this frontend
 
