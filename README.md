@@ -37,3 +37,4 @@ REACT_APP_BLOCK_EXPLORER_URI=https://tuber.build
 REACT_APP_PROJECT_NAME={Your Project Name Here}
 REACT_APP_VERIFY_API={your verify backend URI here}
 ```
+
