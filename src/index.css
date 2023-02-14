@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html.dark {
+    background-color: #000;
+}
+
+.flawless {
+    box-shadow: 0 0 20px 4px #d2b742;
+}
+
+.epic {
+    box-shadow: 0 0 20px 4px #5a316d;
+}
+
+.rare {
+    box-shadow: 0 0 20px 4px #446a9b;
+}
