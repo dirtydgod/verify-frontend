@@ -232,7 +232,7 @@ export function Verify() {
                                 marginBottom: "2rem",
                             }}
                         >
-                            Your Holder status has been verified!
+                            You have been successfully verified!
                         </p>
                         <p
                             style={{
